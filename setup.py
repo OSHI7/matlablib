@@ -7,7 +7,7 @@ setup(
 	long_description = long_description,
 	long_description_content_type="text/markdown",
 	name = 'matlablib',
-	version='0.0.1',
+	version='0.0.2',
 	description = 'Matlab-tool suite', 
 	license = 'MIT',
 	author='Josh Philipson',
