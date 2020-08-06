@@ -1,5 +1,3 @@
-import pandas as pd
-from pandas import DataFrame
 import matplotlib.pyplot as plt
 import time
 import IPython
@@ -36,7 +34,8 @@ def tic():
 def closefigures(plt):
     a=[plt.close(x) for x in range(1,100)] #bit dumb..how can i cound total # of figures?
 
-
+def sayHey():
+	print('hey')
 
 def cc():
     import matplotlib.pyplot
@@ -100,7 +99,7 @@ class MyError(Exception):  # https://stackoverflow.com/questions/1319615/proper-
 # import IPython
 # IPython.core.interactiveshell.InteractiveShell.showtraceback = showtraceback
 
-def getPythonVarables():
+def getPythonVariables():
     import os
     print(os.environ)  # Print a dict of env vars and their values
     # os.environ["PYTHONPATH"]  # Query a specific env var
