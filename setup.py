@@ -22,5 +22,5 @@ setup(
 	"Programming Language :: Python :: 3.8",
 	"License :: OSI Approved :: MIT", 
 	"Operating System :: OS Independent"],
-	install_requires = ['pandas', 'matplotlib'],
+	install_requires = ['pandas', 'matplotlib', 'ipython'],
 	)

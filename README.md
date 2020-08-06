@@ -1,4 +1,4 @@
-### matlablib
+# matlablib
 Suite of Matlab utilities ported over to Python 
 
 ## Installation
@@ -19,5 +19,5 @@ from matlablib import quit_early
 from matlablib import kill_background
 from matlablib import getPythonVariables
 
-# Say hey
+### Say hey
 ml.sayHey
