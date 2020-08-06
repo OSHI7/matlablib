@@ -22,4 +22,6 @@ from matlablib import getPythonVariables
 ```
 
 ### Say hey
+``` python
 ml.sayHey
+```
